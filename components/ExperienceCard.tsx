@@ -22,7 +22,7 @@ export default function ExperienceCard({
   points,
 }: Props) {
   return (
-    <article className='flex lg:h-[600px] h-[600px] md:h-[600px] flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[450px] lg:w-[600px] snap-center backdrop-blur-sm hover:backdrop-blur-lg p-10 border border-[#292929] hover:opacity-100 cursor-pointer transition duration-200 overflow-x-scroll mt-20 hover:border-[#F7AB0A] z-20'>
+    <article className='flex lg:h-[600px] h-[500px] md:h-[600px] flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[450px] lg:w-[600px] snap-center backdrop-blur-sm hover:backdrop-blur-lg p-10 border border-[#292929] hover:opacity-100 cursor-pointer transition duration-200 overflow-x-scroll mt-20 hover:border-[#F7AB0A] z-20'>
       <motion.img
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}

@@ -61,7 +61,7 @@ const Home: NextPage = () => {
       </section>
 
       <Link href='#hero'>
-        <footer className='sticky bottom-5 cursor-pointer w-full mt-10'>
+        <footer className='sticky md:bottom-5 bottom-10 cursor-pointer w-full mt-10'>
           <div className='flex items-center justify-center'>
             <img
               src={heroDP.src}

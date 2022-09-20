@@ -13,7 +13,7 @@ export default function WorkExperience({}: Props) {
       transition={{ duration: 1.5 }}
       className='flex flex-col h-screen relative justify-evenly items-center md:flex-row max-w-full px-10 mx-auto text-left'
     >
-      <h3 className='absolute text-gray-500 uppercase tracking-[15px] top-24 text-xl'>
+      <h3 className='absolute text-gray-500 uppercase tracking-[15px] top-24 lg:text-xl md:text-lg text-sm'>
         Experience
       </h3>
 
@@ -22,6 +22,8 @@ export default function WorkExperience({}: Props) {
           <ExperienceCard {...experience} />
         ))}
       </div>
+
+      <div className='absolute w-full top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12'></div>
     </motion.div>
   );
 }

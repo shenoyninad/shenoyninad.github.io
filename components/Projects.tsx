@@ -8,7 +8,7 @@ export default function Projects({}: Props) {
   const projects: number[] = [1, 2, 3, 4, 5];
   return (
     <div className='min-h-screen relative justify-evenly items-center text-left flex flex-col overflow-hidden md:flex-row max-w-full mx-auto z-0'>
-      <h3 className='absolute text-gray-500 uppercase tracking-[15px] top-24 text-xl'>
+      <h3 className='absolute text-gray-500 uppercase tracking-[15px] lg:top-24 mg:top-20 top-16 lg:text-xl md:text-lg text-sm'>
         Projects
       </h3>
 

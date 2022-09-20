@@ -14,16 +14,16 @@ export default function ContactMe({}: Props) {
 
   return (
     <div className='relative h-screen flex justify-evenly text-center md:text-left items-center flex-col md:flex-row mx-auto max-w-7xl px-10'>
-      <h3 className='absolute text-gray-500 uppercase tracking-[15px] top-24 text-xl'>
+      <h3 className='absolute text-gray-500 justify-center uppercase tracking-[15px] lg:top-24 md:top-16 top-12 lg:text-xl md:text-sm text-xs'>
         Contact
       </h3>
       <div className='flex flex-col space-y-10 mt-20'>
-        <h4 className='font-semibold text-3xl text-center'>
+        <h4 className='font-semibold text-xl md:text-2xl lg:text-3xl text-center'>
           Let's work <span className='aboutKeywords'>together</span>!
         </h4>
 
-        <div className='space-y-5'>
-          <div className='flex items-center justify-center space-x-5'>
+        <div className='space-y-5 text-xs md:text-base'>
+          <div className='flex items-center justify-center space-x-5 text-xs md:text-base'>
             <PhoneIcon className='h-7 w-7 text-[#F7AB0A] animate-pulse' />
             <p>+91 9686085774</p>
           </div>
@@ -41,7 +41,7 @@ export default function ContactMe({}: Props) {
           onSubmit={handleSubmit(onSubmit)}
           className='flex flex-col space-y-3 w-fit mx-auto'
         >
-          <div className='flex space-x-3'>
+          <div className='flex md:space-x-3 space-x-0 space-y-3 md:space-y-0 md:flex-row flex-col'>
             <input
               {...register('name')}
               className='contactInput'

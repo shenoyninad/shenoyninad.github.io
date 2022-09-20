@@ -36,7 +36,7 @@
     "points": [
       "Worked on building a react website for a Patient view",
       "Built a microservice to facilitate the data for the react UI",
-      "Created a NoSQL database to save the data for the app"
+      "Created an SQL database to save the data for the app"
     ]
   },
   {
@@ -55,9 +55,10 @@
     "startDate": "July 2018",
     "endDate": "September 2019",
     "points": [
-      "Worked on building a react website for a Patient view",
-      "Built a microservice to facilitate the data for the react UI",
-      "Created a NoSQL database to save the data for the app"
+      "Designed and developed functionality to automatically intimate/notify the user of the application whenever an event took place in the healthcare system",
+      "Collaborated with colleagues in building a tool that automated the creation of skeletal code for a microservice based on the design of the service given in a YAML file",
+      "Integrated a React on Rails application into a rich client platform application, provided a mechanism to toggle between the new or the old user interface",
+      "Tasked with the responsibility of maintaining the components of web-based applications free of vulnerabilities with regular releases to keep the application secure"
     ]
   },
   {
@@ -77,9 +78,10 @@
     "startDate": "September 2019",
     "endDate": " September 2021",
     "points": [
-      "Worked on building a react website for a Patient view",
-      "Built a microservice to facilitate the data for the react UI",
-      "Created a NoSQL database to save the data for the app"
+      "Executed a complete uplift of the user interface a React on Rails project with newer refreshed UI components but providing the same functionality to the clients",
+      "Developed a new Java microservice from scratch, implemented 3 of the 5 endpoints for various functionalities using hibernate",
+      "Collaborated with a colleague to make a tool that automated testing process for the testers, saving time and effort.",
+      "Tool won the award for innovation and has been adopted across teams"
     ]
   },
   {
@@ -98,9 +100,9 @@
     "startDate": "September 2019",
     "endDate": "",
     "points": [
-      "Worked on building a react website for a Patient view",
-      "Built a microservice to facilitate the data for the react UI",
-      "Created a NoSQL database to save the data for the app"
+      "Spearheaded a full stack project, implemented a unique way of communication between the UI and Java application through the browser, project showcased to the highest level of company management",
+      "Worked on designing the database schema for a table in MySQL, the table would hold close to 70M rows per year",
+      "Led and worked with a team of colleagues to win an organization hackathon, implemented a microservice from scratch in 2 days, by using all the design and architecture principles"
     ]
   }
 ]

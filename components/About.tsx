@@ -22,15 +22,15 @@ export default function About({}: Props) {
         transition={{ duration: 1.2 }}
         viewport={{ once: true }}
         src={aboutPicture.src}
-        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:rounded-lg md:w-64 md:h-96'
       />
 
-      <div className='space-y-10 px-0 md:px-10'>
-        <h4 className='font-semibold text-4xl'>
+      <div className='md:space-y-10 space-y-3 px-0 md:px-10'>
+        <h4 className='font-semibold lg:text-3xl md:text-2xl text-xl'>
           Here is something <span className='aboutKeywords'>about</span> me!
         </h4>
         <p className='text-sm'>
-          I'm Ninad Shenoy, I come from{' '}
+          Hey, how are you doing? I come from{' '}
           <span className='aboutKeywords'>Udupi</span>, a small coastal town in
           Karnataka, India. I've been a{' '}
           <span className='aboutKeywords'>software engineer</span> for almost 4

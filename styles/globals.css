@@ -4,14 +4,19 @@
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/70 hover:text-[#F7AB0A]/70
+    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/70 hover:text-[#F7AB0A]/70;
   }
 
   .aboutKeywords {
-    @apply text-[#F7AB0A]
+    @apply text-[#F7AB0A];
   }
 
   .contactInput {
-    @apply outline-none bg-slate-200/10 rounded-md border-b px-2 py-2 border-[#F7AB0A] text-gray-200 transition-all focus:border-b-white focus:text-[#F7AB0A]
+    @apply outline-none bg-slate-200/10 rounded-md border-b px-2 py-2 border-[#F7AB0A] text-gray-200 transition-all focus:border-b-white focus:text-[#F7AB0A];
+  }
+
+  .contactInputTextArea {
+    @apply outline-none bg-slate-200/10 rounded-md border-b px-2 py-2 border-[#F7AB0A] text-gray-200 transition-all focus:border-b-white focus:text-[#F7AB0A];
+    @apply h-24 md:h-full;
   }
 }

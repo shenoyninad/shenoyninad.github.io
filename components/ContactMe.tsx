@@ -63,12 +63,12 @@ export default function ContactMe({}: Props) {
           />
           <textarea
             {...register('message')}
-            className='contactInput'
+            className='contactInputTextArea'
             placeholder='Message'
             name=''
             id=''
             cols={30}
-            rows={10}
+            rows={7}
           ></textarea>
           <button
             type='submit'

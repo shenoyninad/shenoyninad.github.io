@@ -1,0 +1,56 @@
+[
+  {
+    "language": "HTML",
+    "score": "80%",
+    "languageIcon": "./icons/html.png",
+    "isLeftDirection": true
+  },
+  {
+    "language": "CSS",
+    "score": "75%",
+    "languageIcon": "./icons/css.png",
+    "isLeftDirection": true
+  },
+  {
+    "language": "Javascript",
+    "score": "70%",
+    "languageIcon": "./icons/java-script.png",
+    "isLeftDirection": true
+  },
+  {
+    "language": "Typescript",
+    "score": "60%",
+    "languageIcon": "./icons/typescript.png",
+    "isLeftDirection": true
+  },
+  {
+    "language": "Java",
+    "score": "65%",
+    "languageIcon": "./icons/java.png",
+    "isLeftDirection": false
+  },
+  {
+    "language": "PHP",
+    "score": "40%",
+    "languageIcon": "./icons/php.png",
+    "isLeftDirection": false
+  },
+  {
+    "language": "Python",
+    "score": "40%",
+    "languageIcon": "./icons/python.png",
+    "isLeftDirection": false
+  },
+  {
+    "language": "MySQL",
+    "score": "70%",
+    "languageIcon": "./icons/mysql.png",
+    "isLeftDirection": false
+  },
+  {
+    "language": "React",
+    "score": "80%",
+    "languageIcon": "./icons/react.png",
+    "isLeftDirection": true
+  }
+]

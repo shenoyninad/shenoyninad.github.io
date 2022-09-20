@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ExperienceCard from './ExperienceCard';
+import experienceJSON from '../data/experience.json';
 
 type Props = {};
 
@@ -17,10 +18,12 @@ export default function WorkExperience({}: Props) {
       </h3>
 
       <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-[#F7AB0A]/80'>
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        {experienceJSON.map((experience) => (
+          <ExperienceCard
+            technologies={[]}
+            {...experience}
+          />
+        ))}
       </div>
     </motion.div>
   );

@@ -1,11 +1,12 @@
 import React from 'react';
 import Skill from './Skill';
+import skillsJSON from '../data/skills.json';
 
 type Props = {};
 
 export default function Skills({}: Props) {
   return (
-    <div className='min-h-screen relative justify-center flex flex-col items-center text-center md:text-left xl:flex-row mx-w-[2000px] xl:px-10 mx-auto xl:space-y-0'>
+    <div className='min-h-screen relative justify-center flex flex-col items-center text-center md:text-left xl:flex-row mx-w-[2000px] xl:px-10 mx-auto xl:space-y-0 overflow-hidden'>
       <h3 className='absolute text-gray-500 uppercase tracking-[15px] top-24 text-xl'>
         Skills
       </h3>
@@ -14,16 +15,10 @@ export default function Skills({}: Props) {
         Hover on a skill for my current proficiency
       </h3>
 
-      <div className='grid grid-cols-4 gap-5'>
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+      <div className='grid grid-cols-4 gap-5 py-7'>
+        {skillsJSON.map((skill) => (
+          <Skill {...skill} />
+        ))}
       </div>
     </div>
   );

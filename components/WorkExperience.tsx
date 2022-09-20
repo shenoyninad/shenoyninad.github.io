@@ -19,10 +19,7 @@ export default function WorkExperience({}: Props) {
 
       <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-[#F7AB0A]/80'>
         {experienceJSON.map((experience) => (
-          <ExperienceCard
-            technologies={[]}
-            {...experience}
-          />
+          <ExperienceCard {...experience} />
         ))}
       </div>
     </motion.div>
